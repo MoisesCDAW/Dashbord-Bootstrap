@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Inicio</title>
 </head>
 <body>
-    <p>Inicio</p>
+    <header class="col-11 m-5 p-4 bg-primary text-white text-center rounded rounded-3 shadow border border-2 border-white">
+        <h1>Bienvenido a website</h1>
+        <p>Un dashboard para conectar con creadores de porfolios y administrar los tuyos propios
+        </p>
+    </header>
+
+    <section id="central">
+        <div class="d-flex align-items-center justify-content-end gap-3 me-5 pe-5">
+            <input class="bg-light col-3 ps-3 pt-2 pb-2 border border-white rounded rounded-5 text-secondary" placeholder="Busca a tus creadores favoritos">
+            <img src="img/busqueda.png" width="20px">
+        </div>
+        <div class="m-5 mt-4 border border-2 border-secondary" id="divisor"></div>
+    </section>
+
+    <section id="contenido" class="d-flex justify-content-center gap-5">
+        <div id="izquierdo" class="d-flex gap-3">
+            <img src="img/bombilla.png" width="70px" height="70px">
+            <div>
+                <h3>Título informativo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                    sed do eiusmod tempor incididunt ut labore
+                </p>
+                <a href=""  class="text-decoration-none text-primary">Mas información</a>
+            </div>
+        </div>
+
+        <div id="izquierdo" class="d-flex gap-3">
+            <img src="img/brujula.png" width="70px" height="70px">
+            <div>
+                <h3>Objetivos </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                    sed do eiusmod tempor incididunt ut labore
+                </p>
+                <a href="" class="text-decoration-none text-primary">Mas información</a>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
